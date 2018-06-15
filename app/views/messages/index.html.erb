@@ -1,5 +1,5 @@
 <% @messages.each do |message| %>
-    <h2>Message no. <%= message.id %> is:</h2><br>
+    <h2>Message no. <%= message.id %> is:</h2>
     <div> 
         <%= truncate(message.body, :length => 20) %>
     </div>
